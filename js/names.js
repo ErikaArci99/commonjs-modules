@@ -1,5 +1,6 @@
 // creo funzione che accetta due parametri: firstName, lastName
-
-const name = (firstName, lastName) =>{
-    return firstName+lastName
+const names = (firstName, lastName) => {
+    return firstName + ' ' + lastName;
 }
+
+module.exports = names;
