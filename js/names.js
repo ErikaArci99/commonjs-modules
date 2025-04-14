@@ -3,4 +3,6 @@ const names = (firstName, lastName) => {
     return firstName + ' ' + lastName;
 }
 
+
+// esporto la funzione
 module.exports = names;
